@@ -1,0 +1,95 @@
+.footer {
+  background: #424242;
+  padding: 10px 30px 20px 30px;
+  align-content: center;
+}
+
+.fotter__link {
+  color: #ffffff;
+}
+.fotter__link:hover {
+  color: #ffffff;
+}
+.fotter__sublink {
+  color: #d1d1d1;
+}
+.fotter__sublink:hover {
+  color: #d1d1d1;
+}
+
+.footer__bottom {
+  margin: 20px 20px 0px 20px;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+  border-top: 1px solid #989898;
+}
+.footer__bottom h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.footer__contentLeft {
+  text-align: left;
+}
+.footer__contentLeft h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  color: #ffffff;
+  margin: 10px 0 5px 0;
+}
+.footer__contentLeft h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: rgb(216, 215, 215);
+  margin: 0 0 0 40px;
+}
+.footer__contentLeft__products {
+  width: fit-content;
+  margin: 0 0 0 30px;
+}
+
+.footer__contentRight {
+  text-align: left;
+}
+.footer__contentRight h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 20px 0 5px 0;
+}
+.footer__contentRight h5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(216, 215, 215);
+  margin: 0 0 0 40px;
+}
+
+.footer_line {
+  border-top: 1px solid #989898;
+}
+
+@media screen and (max-width: 1000px) {
+}

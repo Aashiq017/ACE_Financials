@@ -61,16 +61,6 @@ function Home() {
 
     tl2.from(intro2, 2, { xPercent: -100 }).from(intro3, 2, { xPercent: 100 });
 
-    {/*ScrollTrigger.create({
-      animation: tl2,
-      trigger: intro,
-      markers: false,
-      start: "top top",
-      end: "+=2000",
-      scrub: false,
-      pin: true,
-      anticipatePin: 1
-    });*/}
   };
 
   useEffect(() => {

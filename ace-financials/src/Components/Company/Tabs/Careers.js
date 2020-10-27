@@ -1,8 +1,8 @@
 import React from "react";
 import "./Careers.css";
-import { Divider } from "@material-ui/core";
 
 function Careers() {
+  
   return (
     <div className="careers">
       <h1>Openings -</h1>

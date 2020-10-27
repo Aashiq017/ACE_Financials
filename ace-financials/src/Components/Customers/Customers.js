@@ -48,6 +48,7 @@ function a11yProps(index) {
 }
 
 function Customers() {
+
   const dispatch = useDispatch();
 
   const Loc = "customers";
@@ -62,14 +63,14 @@ function Customers() {
       setMiddleEast(snapshot.docs.map((doc) => doc.data()));
     });
     console.log(middleEast);
-  }, [1]);
+  }, [middleEast]);
 
   useEffect(() => {
     db.collection("Clients in India").onSnapshot((snapshot) => {
       setIndia(snapshot.docs.map((doc) => doc.data()));
     });
     console.log(india);
-  }, [2]);
+  }, [india]);
 
   const [value, setValue] = React.useState(0);
 

@@ -74,8 +74,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 32px;
   color: #444444;
 }
 
@@ -88,8 +88,8 @@
 .product__content2 ul {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 32px;
   color: #424242;
   margin: 40px 0 0 200px;
 }

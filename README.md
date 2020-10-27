@@ -20,5 +20,5 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Customers data is fetched from firebase. \
 changes can be done in the firebase console. \
-removal of a customer should be done based on the object id. \
+removal of a customer should be done based on the object id. 
 

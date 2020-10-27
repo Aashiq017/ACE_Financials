@@ -61,8 +61,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 90px;
-  line-height: 169px;
+  font-size: 70px;
+  line-height: 100px;
   text-align: center;
   color: #03a1fa;
 }
@@ -70,8 +70,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 64px;
-  line-height: 84px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   color: #ffffff;
   text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.34);
@@ -90,16 +90,16 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 45px;
-  line-height: 56px;
+  font-size: 35px;
+  line-height: 42px;
   color: #000000;
 }
 .partnerShip__content h4 {
   font-family: Roboto;
   font-style: italic;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 48px;
+  font-size: 30px;
+  line-height: 40px;
   color: #41b0ef;
 }
 .partnerShip__content ul {
@@ -109,10 +109,10 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 30px;
   color: #848484;
-  margin: 10px;
+  margin: 5px;
 }
 
 @media screen and (max-width: 1000px) {

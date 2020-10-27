@@ -87,13 +87,13 @@ function Home() {
   return (
     <div className="home">
       <div className="home__tabIcon">
-        <IconButton>
+        
           <ArrowForwardIosIcon
             fontSize="large"
             style={{ color: grey[50], marginRight: -10 }}
             onClick={handleClick}
           />
-        </IconButton>
+        
       </div>
       <Popover
         id={id}

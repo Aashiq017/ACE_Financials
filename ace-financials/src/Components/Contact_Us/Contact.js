@@ -2,9 +2,9 @@ import React from "react";
 import "./Contact.css";
 import { useDispatch } from "react-redux";
 import { setLoc } from "../../Features/Navigation/NavigationSlice";
-import { Divider } from "@material-ui/core";
 
 function Contact() {
+  
   const dispatch = useDispatch();
 
   const Loc = "support";

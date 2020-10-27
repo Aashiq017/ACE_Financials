@@ -89,22 +89,26 @@ function Navbar() {
   const isCompany = "company" === navLoc;
   const isContact = "support" === navLoc;
 
-  let nav_icon = document.querySelector("#nav__icon");
-
-
-  while (window.innerHeight >= 1000) {
-    nav_icon.classList.add("icon_dis");
-  }
+  const [show, handleShow] = useState(false);
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 1000) {
+        handleShow(true);
+      } else {
+        handleShow(false);
+      };
+    });
+  }, []);
 
   return (
     <nav>
       <div className="nav__apr">
-        <div className="main__logo">
+        <Link to="/" className="main__logo">
           <img src={logo} alt="" />
 
           <h3 className="logo">Sunshine Systems</h3>
           <p></p>
-        </div>
+        </Link>
         <div className="nav__search">
           <div className={classes.search}>
             <div className={classes.searchIcon}>
@@ -120,7 +124,7 @@ function Navbar() {
             />
           </div>
         </div>
-        <div id="nav__icon">
+        <div id="nav__icon" className={`nav__icon ${show && "nav__iconNone"}`}>
           <IconButton onClick={handleDrawerOpen}>
             <MenuIcon style={{ fontSize: 40 }} />
           </IconButton>

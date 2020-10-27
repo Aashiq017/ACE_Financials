@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { setLoc } from "../../Features/Navigation/NavigationSlice";
 
 function Services() {
+
   const dispatch = useDispatch();
 
   const Loc = "services";
@@ -43,7 +44,7 @@ function Services() {
             <span>ACE Financils for Hotel</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -60,7 +61,7 @@ function Services() {
             <span>ACE Financials for Manufacturing</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -77,7 +78,7 @@ function Services() {
             <span>ACE Payroll and HR</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -94,7 +95,7 @@ function Services() {
             <span>ACE Fiexed Assets</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -111,7 +112,7 @@ function Services() {
             <span>ACE Loyality</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -128,7 +129,7 @@ function Services() {
             <span>ACE Analytics</span>
             <svg
               id="arrow"
-              width="52"
+              width="42"
               height="30"
               viewBox="0 0 52 30"
               fill="none"
@@ -144,9 +145,11 @@ function Services() {
         </div>
       </div>
       <div className="services__content2">
-        <h2>Business Intelligence and Data Warehousing</h2>
-        <div id="lineBi"></div>
-        <div className="content2_1st_inf">
+        <div className="services__content2_head">
+          <h2>Business Intelligence and Data Warehousing</h2>
+          <div id="lineBi"></div>
+        </div>
+        <div className="content2_text">
           <h3>
             Sunshine provides BI & DWH solutions using SSIS, SSAS, SSRS, Cognos,
             informatica, Business Objects XI and Crystal Reports XI. Our strong

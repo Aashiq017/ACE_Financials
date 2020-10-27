@@ -3,7 +3,7 @@
 }
 
 .board {
-  padding: 40px 30px 20px 50px;
+  padding: 0px 30px 20px 50px;
 }
 
 .bar {
@@ -13,14 +13,14 @@
   width: 100%;
 }
 .bar h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .middleEast {
   transition: 0.5s;
 }
 .middleEast h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .middleEast__clients {
@@ -34,7 +34,7 @@
   transition: 0.5s;
 }
 .india h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .india__clients {

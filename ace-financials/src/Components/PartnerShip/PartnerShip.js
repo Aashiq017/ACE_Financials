@@ -25,7 +25,6 @@ function PartnerShip() {
 
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
-
   return (
     <div className="partnerShip">
       <div className="partnerShip__head">

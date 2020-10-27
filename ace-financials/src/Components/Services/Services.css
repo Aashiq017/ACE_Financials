@@ -16,8 +16,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 64px;
-  line-height: 75px;
+  font-size: 57px;
+  line-height: 65px;
   color: #ffffff;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
@@ -26,7 +26,7 @@
   position: relative;
   background: #252525;
   box-shadow: 0px -111px 100px 85px #252525;
-  padding: 0 70px 50px 100px;
+  padding: 0 70px 50px 50px;
   overflow: hidden;
 }
 .services__content1_prod,
@@ -34,8 +34,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 32px;
   display: flex;
   align-items: center;
   letter-spacing: 0.14em;
@@ -46,7 +46,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 123.19%;
   display: flex;
   align-items: center;
@@ -56,7 +56,7 @@
 }
 #lineProd {
   border-top: 1px solid #dfdfdf;
-  width: 370px;
+  width: 300px;
   margin: 0 0 0 20px;
 }
 
@@ -71,7 +71,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 123.19%;
   letter-spacing: 0.14em;
   color: #d6d6d6;
@@ -95,73 +95,84 @@
   background: #252525;
   height: 100%;
   width: 100%;
+  padding: 0 0 50px 50px;
 }
-.services__content2 h2 {
+.services__content2_head {
+  width: fit-content;
+  padding: 30px 0 0 0;
+}
+.services__content2_head h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 123.19%;
   letter-spacing: 0.085em;
   color: #d0d0d0;
-  padding: 50px 0 0 120px;
 }
 #lineBi {
   border-top: 1px solid #dfdfdf;
-  width: 800px;
-  margin: 0 0 0 120px;
+  margin: 0 0 0 5px;
 }
-.content2_1st_inf {
-  margin-top: 100px;
+.content2_text {
+  margin-top: 50px;
   display: flex;
   align-items: center;
 }
-.content2_1st_inf h3 {
+.content2_text h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 112.19%;
   letter-spacing: 0.055em;
   color: #a7a7a7;
-  padding: 0 20px 50px 100px;
+  
 }
-.content2_1st_inf img {
+
+.content2_text img {
   object-fit: cover;
   width: 55%;
   height: 50vh;
 }
+/*.content2_text img {
+  object-fit: cover;
+  width: 55%;
+  height: 50vh;
+  transition: 0.5s;
+}*/
+
 
 .services__content3 {
   background: #252525;
   height: 100%;
   width: 100%;
-  padding: 100px 50px 100px 50px;
+  padding: 30px 50px 100px 50px;
 }
 .services__content3 h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 123.19%;
   letter-spacing: 0.085em;
   color: #d0d0d0;
-  padding: 50px 0 0 120px;
+  padding: 50px 0 0 40px;
 }
 #lineSS {
   border-top: 1px solid #dfdfdf;
-  width: 440px;
-  margin: 0 0 0 120px;
+  width: 360px;
+  margin: 0 0 0 40px;
 }
 .services__content3 h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 132.19%;
-  letter-spacing: 0.2em;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.1em;
   color: #a7a7a7;
-  padding: 50px 100px 0 50px;
+  padding: 30px 0 0 0;
 }
 
 @media screen and (max-width: 1000px) {

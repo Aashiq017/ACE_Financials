@@ -13,7 +13,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
-.icon_dis {
+
+.nav__iconNone {
   display: none;
 }
 
@@ -33,9 +34,15 @@ nav {
   flex-direction: row;
   align-items: center;
 }
+.main__logo:hover {
+  text-decoration: none;
+}
 .logo {
   color: #ff9800;
   font-style: normal;
+}
+.main__logo:hover .logo {
+  color: #ffbe5c;
 }
 
 .nav__menu {

@@ -5,11 +5,9 @@ import { useDispatch } from "react-redux";
 import { setLoc } from "../../Features/Navigation/NavigationSlice";
 import { Paper, Tabs, Tab } from "@material-ui/core";
 import InfoIcon from "@material-ui/icons/Info";
-import AnnouncementIcon from "@material-ui/icons/Announcement";
 import WorkIcon from "@material-ui/icons/Work";
 
 import About from "./Tabs/About";
-import News from "./Tabs/News";
 import Careers from "./Tabs/Careers";
 
 function TabPanel(props) {

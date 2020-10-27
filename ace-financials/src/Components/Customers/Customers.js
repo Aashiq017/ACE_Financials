@@ -63,14 +63,14 @@ function Customers() {
       setMiddleEast(snapshot.docs.map((doc) => doc.data()));
     });
     console.log(middleEast);
-  }, [middleEast]);
+  }, [2]);
 
   useEffect(() => {
     db.collection("Clients in India").onSnapshot((snapshot) => {
       setIndia(snapshot.docs.map((doc) => doc.data()));
     });
     console.log(india);
-  }, [india]);
+  }, [2]);
 
   const [value, setValue] = React.useState(0);
 

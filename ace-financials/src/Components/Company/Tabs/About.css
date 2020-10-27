@@ -1,0 +1,142 @@
+.about {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: black;
+  padding: 120px 50px 50px 50px;
+  overflow: hidden;
+  margin: 0;
+}
+.about::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 45%;
+  background: linear-gradient(
+    294.35deg,
+    rgba(0, 71, 255, 0.5) 0%,
+    rgba(255, 23, 205, 0.5) 70%
+  );
+  top: -20%;
+  transform: rotateZ(30deg);
+  left: 20%;
+  z-index: 0;
+}
+.about::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 35%;
+  top: -20%;
+  background: linear-gradient(
+    240.81deg,
+    rgba(255, 0, 229, 0.5) 1.12%,
+    rgba(43, 10, 243, 0.405) 100%
+  );
+  right: 30%;
+  transform: rotateZ(-30deg);
+  z-index: 0;
+}
+
+.about__1head {
+  position: relative;
+  z-index: 10;
+}
+.about__1head h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin: 40px 0 20px 0;
+  z-index: 10;
+}
+
+.about__container {
+  background: rgba(17, 17, 17, 0.51);
+  padding: 20px 30px 20px 30px;
+  z-index: 10;
+  position: relative;
+}
+.about__container p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+  color: #fffbfb;
+}
+
+.about__2head {
+  width: fit-content;
+  position: relative;
+  z-index: 10;
+  margin-top: 30px;
+}
+.about__2head h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 56px;
+  color: #ffffff;
+}
+.about ul {
+  padding: 0 50px 30px 10%;
+}
+.about_line {
+  margin: 5px 10px 5px 5px;
+  border-bottom: 1px solid #cacaca;
+}
+.about ul li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 56px;
+  color: #b3b3b3;
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    padding: 100px 20px 30px 20px;
+  }
+  .about::after {
+    top: 60%;
+    height: 70%;
+    width: 100%;
+    right: 0;
+    transform: skewY(20deg);
+  }
+  .about::before {
+    top: -20%;
+    height: 50%;
+    left: 0%;
+    width: 100%;
+    transform: skewY(20deg);
+  }
+  .about__1head h1 {
+    font-size: 40px;
+  }
+  .about__container p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .about_line {
+    margin: 5px 5px 20px 5px;
+  }
+  .about__2head h1 {
+    font-size: 35px;
+  }
+  .about ul {
+    padding: 0 50px 5px 20%;
+  }
+  .about ul li {
+    position: relative;
+    font-size: 20px;
+    line-height: 27px;
+    z-index: 10;
+    color: rgb(214, 214, 214);
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "short_name": "ACE Financials",
+  "name": "ACEfinancials | Hotel ERP Software",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ACEfinancials | Hotel ERP Software",
+      "short_name": "ace finanials",
+      "description": "Over 40+ Hotels Run Their Business Better with ACE Financials... ",
+      "url": "/"
+    },
+    {
+      "name": "Products - ACE Financials",
+      "short_name": "ACE Financials",
+      "description": "ACE Financials for hotels. ACE offers a wide range of scalable and modular property and central solutions for effective hotel management. Whether you operate ...      ",
+      "url": "/hotels"
+    },
+    {
+      "name": "Company  - ACE Financials",
+      "short_name": "Ace Financials",
+      "description": "Sunshine Systems is a leading IT solutions provider catering to domains such as Hospitality, Manufacturing, Loyalty, and bespoke software ...",
+      "url": "/company"
+    },
+    {
+      "name": "Services - ACE Financials",
+      "short_name": "ace financials",
+      "description": "Sunshine Systems has experience of delivering more than 200 successful custom software development projects. Our range of services includes...",
+      "url": "/services"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

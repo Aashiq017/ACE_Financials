@@ -1,0 +1,244 @@
+.services {
+  width: 100%;
+  overflow: hidden;
+}
+
+#wall {
+  object-fit: contain;
+  width: 100%;
+}
+#head_text {
+  position: absolute;
+  transform: translateY(-250%);
+  left: 100px;
+}
+#head_text h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.services__content1 {
+  position: relative;
+  background: #252525;
+  box-shadow: 0px -111px 100px 85px #252525;
+  padding: 0 70px 50px 100px;
+  overflow: hidden;
+}
+.services__content1_prod,
+.services__content1_intro {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.14em;
+  color: #bababa;
+  padding: 50px 0 0 0;
+}
+.services__content1 h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 123.19%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.14em;
+  color: #dedede;
+  padding: 90px 0 0 20px;
+}
+#lineProd {
+  border-top: 1px solid #dfdfdf;
+  width: 370px;
+  margin: 0 0 0 20px;
+}
+
+.services_prods {
+  margin: 50px 0 0 10%;
+  width: fit-content;
+}
+#prod_line {
+  border-top: 1px solid #aaaaaa;
+}
+.prod_link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 123.19%;
+  letter-spacing: 0.14em;
+  color: #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 5px 0;
+}
+.prod_link:hover {
+  color: #888888;
+  text-decoration: none;
+}
+#arrow {
+  margin: 0 0 0 10px;
+}
+.prod_link:hover svg path {
+  fill: #888888;
+}
+
+.services__content2 {
+  background: #252525;
+  height: 100%;
+  width: 100%;
+}
+.services__content2 h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 123.19%;
+  letter-spacing: 0.085em;
+  color: #d0d0d0;
+  padding: 50px 0 0 120px;
+}
+#lineBi {
+  border-top: 1px solid #dfdfdf;
+  width: 800px;
+  margin: 0 0 0 120px;
+}
+.content2_1st_inf {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.content2_1st_inf h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 112.19%;
+  letter-spacing: 0.055em;
+  color: #a7a7a7;
+  padding: 0 20px 50px 100px;
+}
+.content2_1st_inf img {
+  object-fit: cover;
+  width: 55%;
+  height: 50vh;
+}
+
+.services__content3 {
+  background: #252525;
+  height: 100%;
+  width: 100%;
+  padding: 100px 50px 100px 50px;
+}
+.services__content3 h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 123.19%;
+  letter-spacing: 0.085em;
+  color: #d0d0d0;
+  padding: 50px 0 0 120px;
+}
+#lineSS {
+  border-top: 1px solid #dfdfdf;
+  width: 440px;
+  margin: 0 0 0 120px;
+}
+.services__content3 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 132.19%;
+  letter-spacing: 0.2em;
+  color: #a7a7a7;
+  padding: 50px 100px 0 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  #head_text {
+    left: 30px;
+    transform: translateY(-230%);
+  }
+  #head_text h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .services__content1 {
+    box-shadow: 0px -51px 100px 50px #252525;
+    padding: 0 10px 0 30px;
+  }
+  .services__content1_intro,
+  .services__content1_prod {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .services__content1 h2 {
+    font-size: 30px;
+    padding: 40px 0 0 15px;
+  }
+  #lineProd {
+    width: 220px;
+  }
+  .services_prods {
+    margin: 30px 30px 0 10%;
+  }
+  .prod_link {
+    font-size: 23px;
+  }
+  #arrow {
+    width: 40px;
+  }
+
+  .services__content2 h2 {
+    font-size: 30px;
+    padding: 50px 0 0 15px;
+    color: white;
+  }
+  #lineBi {
+    width: 490px;
+    margin: 0 0 0 15px;
+  }
+  .content2_1st_inf {
+    display: block;
+
+    margin-top: 50px;
+    padding: 0 5% 0 5%;
+  }
+  .content2_1st_inf h3 {
+    font-size: 23px;
+    line-height: 30px;
+    padding: 0 0 0 10px;
+  }
+  .content2_1st_inf img {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .services__content3 {
+    padding: 0 10px 0 10px;
+  }
+  .services__content3 h2 {
+    font-size: 30px;
+    padding: 0 0 0 40px;
+  }
+  #lineSS {
+    width: 270px;
+    margin: 0 0 0 45px;
+  }
+  .services__content3 h3 {
+    font-size: 23px;
+    line-height: 27px;
+    padding: 20px 0 40px 10px;
+  }
+}

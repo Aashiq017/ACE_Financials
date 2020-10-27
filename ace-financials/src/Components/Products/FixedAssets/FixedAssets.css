@@ -1,0 +1,125 @@
+.product img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.product__img {
+}
+
+.product__title {
+  position: absolute;
+  transform: translateY(-350%);
+}
+#lineF {
+  position: absolute;
+  width: 460px;
+  height: 8px;
+  left: 60px;
+  margin-top: -10px;
+  background: #ff0000;
+}
+.product__title h2 {
+  margin-left: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.products_menu {
+  position: absolute;
+  width: 330px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  right: 20px;
+  border-radius: 10px;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+  transform: translateY(-60%);
+}
+.menu_head {
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  padding:  0 0 0 10px;
+  margin-top: -15px;
+}
+.sub_link {
+  font-size: 20px;
+  color: rgb(134, 134, 134);
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+}
+.active {
+  background: rgb(0, 149, 255);
+  color: white;
+}
+.sub_link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.product__content1 {
+  width: 100%;
+  margin: 0 0 0 0;
+  background: #e5e5e5;
+  padding: 70px 360px 25px 50px;
+}
+.product__content1 h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  color: #444444;
+}
+
+.product__content2 {
+  width: 100%;
+  margin: 0 0 0 0;
+  background: rgb(255, 255, 255);
+  padding: 40px 100px 25px 50px;
+}
+.product__content2 ul {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 38px;
+  color: #424242;
+  margin: 40px 0 0 200px;
+}
+
+@media screen and (max-width: 1000px) {
+  .product__title h2 {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  #lineF {
+    left: 18px;
+    width: 200px;
+    height: 5px;
+  }
+  .products_menu {
+    display: none;
+  }
+  .product__content1 {
+    padding: 40px 15px 20px 15px;
+  }
+  .product__content1 h3 {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .product__content2 {
+    padding: 10px 15px 10px 15px;
+  }
+  .product__content2 ul {
+    font-size: 20px;
+    margin: 0 15px 0 30%;
+    line-height: 30px;
+  }
+}

@@ -18,7 +18,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
---->  Customers data is fetched from firebase
---->    --  changes can be done in the firebase console
---->    --  removal of a customer should be done based on the object id
+Customers data is fetched from firebase
+changes can be done in the firebase console
+removal of a customer should be done based on the object id
 
